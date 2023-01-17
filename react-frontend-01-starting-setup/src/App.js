@@ -20,6 +20,7 @@ function App() {
         <Route path="/places/new" exact>
           <NewPlace />
         </Route>
+
         <Redirect to="/" />
       </Switch>
     </Router>
